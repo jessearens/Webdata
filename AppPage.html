@@ -1,37 +1,33 @@
 <html>
   <head>
     <title> 2D - task management </title>
-	<script src ="jquery.js" type="text/javascript"></script>
+	  <script src ="jquery.js" type="text/javascript"></script>
     <script src ="temporaryTodo.js" type="text/javascript"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
-
+  
   <body>
-    <div class = "wrapper">
-      <header>
-        <h1> 2D - task management</h1>
-          <nav class="Handlingbuttons">
-            <a onClick="sortToDate()" class="myButton">Sort to date</a>
-            <a onClick="sortToPriority()" class="myButton">Sort to importance</a> 
-            <a onClick="showAddWindow()" class="myButton">Add new To Do</a>
-            <a href="#" class="myButton">Show completed To Do's</a>
-        </nav>
-      </header>
-
-      <main>
-        <div class ="fadein"></div> 
-		  <br>
-		    <div id="todoList"></div>
-		  <br>
-		
-		  <div align= 'right' id="addWindow"></div>
-      </main>
-    </div>
-	</body>
-  <footer>
-      <div class="footer">
+    <header>
+      <h1> 2D - task management</h1>
+      <nav class="Handlingbuttons">
+        <a onClick="sortToDate()" class="myButton">Sort to date</a>
+        <a onClick="sortToPriority()" class="myButton">Sort to importance</a> 
+        <a onClick="showAddWindow()" class="myButton">Add new To Do</a>
+        <a href="#" class="myButton">Show completed To Do's</a>
         <a href="2Dmainpage.html" class="myButton">Log out</a> 
-        <h2> This app is made by:</h2>
-        <p> Jesse Arens & Wytze Ro&#235;l</p>
+      </nav>
+    </header>
+    
+    <div class ="fadein">
+		<br>
+		<div id="todoList"></div>
+		<br>
+		<div align= 'right' id="addWindow"></div>
+    </div> 
+  </body>
+
+  <footer>
+    <h2> This app is made by:</h2>
+    <p> Jesse Arens & Wytze Ro&#235;l</p>
   </footer>
 </html>

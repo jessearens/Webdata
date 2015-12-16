@@ -87,7 +87,7 @@ function sortToDate() {
 showTodos();
 }
 function showAddWindow() {
-	var addWindowText = "Title: <input type='text' name='title' id='title' placeholder='title' required></input><br>Description: <input type='text' name='description' id='description' placeholder='description' required><br>Due Date: <input type='date' name='dueDate' id='dueDate' placeholder='dd-mm-yyyy' required><br>Priority: <input type='number' min='1' max='5' name='priority' id='priority' placeholder='1-5'  required><br><br><a class='myButton' onclick='addTodo()' type='submit'>add</a> <a class='myButton' onclick='dontShowAddWindow()'>cancel</a>";
+	var addWindowText = "Title: <input type='text' name='title' id='title' placeholder='title' required></input> Description: <input type='text' name='description' id='description' placeholder='description' required>Due Date: <input type='date' name='dueDate' id='dueDate' placeholder='dd-mm-yyyy' required>Priority: <input type='number' min='1' max='5' name='priority' id='priority' placeholder='1-5'  required><a class='myButton' onclick='addTodo()' type='submit'>add</a> <a class='myButton' onclick='dontShowAddWindow()'>cancel</a>";
 	$("#addWindow").html(addWindowText);
 }
 function dontShowAddWindow() {
